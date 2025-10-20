@@ -12,12 +12,6 @@ from typing import Tuple
 import os
 import csv
 import winsound
-from apscheduler.schedulers.background import BackgroundScheduler
-from apscheduler.schedulers.blocking import BlockingScheduler
-#from apscheduler.jobstores.mongodb import MongoDBJobStore
-#from apscheduler.jobstores.sqlalchemy import SQLAlchemyJobStore
-from apscheduler.jobstores.memory import MemoryJobStore
-from apscheduler.executors.pool import ThreadPoolExecutor, ProcessPoolExecutor
 import pythoncom
 import psutil
 

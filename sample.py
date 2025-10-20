@@ -87,7 +87,7 @@ if __name__ == '__main__':
         配列を追加
     """
     try:
-        data = wb.sheets[shname].range('A1:EU201').value
+        data = wb.sheets[shname].range('A1:EU101').value
     except Exception as e:
         print(e)
     else:

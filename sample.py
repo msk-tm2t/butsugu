@@ -58,7 +58,7 @@ def add_xl_app(add_book: bool=True) -> xw.App:
         xl_app.books.add()
     return xl_app
 
-def openExcel(xlfile: str=r'D:\Users\masak\OneDrive\ドキュメント\お金\株価情報.xlsx', shname: str=r'楽天rss') -> Tuple[xw.App, xw.Book, xw.Sheet] :
+def openExcel(xlfile: str=, shname: str) -> Tuple[xw.App, xw.Book, xw.Sheet] :
     while True :
         app = add_xl_app(False)
         flg, wb, wsrss = open_xl(app, xlfile, shname)
